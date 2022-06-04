@@ -1,0 +1,90 @@
+.color{
+    color: rgb(221, 221, 221);
+    padding: 12px 28px 12px 29px;
+    /* position: absolute; */
+}
+.color:hover{
+    background-color: #5e92f4;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+    padding: 12px 35px 12px 29px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+.size{
+    font-size: 30px;
+}
+.container{
+    width: 30%;
+    margin-top: 30px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+.infobox{
+    display: flex;
+    justify-content: space-between;
+    gap: 144px;
+    margin-left: 10px;
+}
+.hrLight{
+    border: none;
+    height: 2px;
+    background-color: rgb(231, 231, 231);
+    margin: 0px -16px 0px -16px;
+}
+.hrDark{
+    border: none;
+    height: 2px;
+    background-color: #35393b;
+    margin: 0px -16px 0px -16px;
+}
+.darkSidebar{
+    background-color: rgb(20, 20, 20);
+    color: white;
+    width: 5.7%;
+    padding: 0px 0px 0px 4px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.lightSidebar{
+    background-color: white;
+    color: #16191c;
+    width: 5.7%;
+    padding: 4px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.dashboardBoxLight{
+    background-color: #f5f6fa; 
+    width: 94.3% ;
+    height: 100vh ;
+    padding: 4px ;
+    color:black;
+}
+.dashboardBoxDark{
+    background-color: #1f2327; 
+    width: 94.3% ;
+    height: 100vh ;
+    padding: 4px ;
+    color:rgb(251, 251, 251);
+}
+.containerLight{
+    background-color: white; 
+    padding: 16px;
+    border-radius: 10px;
+    color: black;
+    font-weight: 500;
+}
+.containerDark{
+    background-color: #292e33; 
+    padding: 16px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+}

@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+}
+.sidebar{
+  width: 5%;
+}
+.dashboard{
+  width: 94%;
+}
+.maindiv{
+  width: 100%;
+}
